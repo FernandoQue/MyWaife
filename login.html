@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <style>
+    body {
+      background-color: #3498db; /* Color de fondo azul */
+    }
+    .login {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+      margin: 100px auto;
+      padding: 20px;
+      width: 400px;
+    }
+    h1 {
+      color: #e74c3c; /* Color de texto rojo */
+      text-align: center;
+    }
+    label {
+      color: #2c3e50; /* Color de texto azul oscuro */
+      display: block;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    input[type="text"], input[type="password"] {
+      border: 2px solid #2c3e50; /* Borde azul oscuro */
+      border-radius: 5px;
+      font-size: 16px;
+      padding: 10px;
+      width: 100%;
+    }
+    button {
+      background-color: #e74c3c; /* Botón rojo */
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 18px;
+      margin-top: 20px;
+      padding: 10px;
+      width: 100%;
+    }
+    button:hover {
+      background-color: #c0392b; /* Botón rojo oscuro al pasar el ratón */
+    }
+  </style>
+</head>
+<body>
+  <div class="login">
+    <h1>Login</h1>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <form><button type="submit" formaction="image.html">Login</button></form>
+    </form>
+  </div>
+</body>
+</html>
